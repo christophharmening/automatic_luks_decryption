@@ -7,8 +7,8 @@
 
 
 # Write here the partition for /boot an /
-BOOTPART=/dev/sda1 # /boot partition
-ROOTPART=/dev/sda5 # / partition
+#BOOTPART=/dev/sda1 # /boot partition
+#ROOTPART=/dev/sda5 # / partition
 
 # root user ?
 if [ "$EUID" -ne 0 ];then
